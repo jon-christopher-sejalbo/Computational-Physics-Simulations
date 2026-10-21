@@ -47,7 +47,7 @@ A model of a uniform circular orbit using standard Newtonian mechanics.
 ```bash
 g++ -o mercury_sim ./schwarzschild_gravity.cpp
 ./mercury_sim > schwarzschildean_orbit_data.csv
-python animate_orbit.py
+python animate_schwarzschild_orbit.py
 ```
 
 ### 2. Verify Lorentz Invariance
@@ -62,5 +62,5 @@ g++ -o sr_sim ./sr_transform.cpp
 ```bash
 g++ -o orbit_sim ./newtonian_gravity.cpp
 ./orbit_sim > orbit_data.csv
-python animate_orbit.py
+python animate_newtonian_orbit.py
 ```
