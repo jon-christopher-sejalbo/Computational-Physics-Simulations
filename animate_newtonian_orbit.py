@@ -57,8 +57,4 @@ ani = animation.FuncAnimation(
     blit=True
 )
 
-print("Saving animation to orbit.gif... This may take a moment.")
-ani.save('newtonian_orbit.gif', writer='pillow', fps=30)
-print("Save complete!")
-
 plt.show()
